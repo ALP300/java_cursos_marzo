@@ -72,7 +72,9 @@ public class Frm_java extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         String text= "Hola";
-        txtA.setText(text);
+        int num1= 3;
+        txtA.setText(""+num1);
+        txtA.append(text);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
